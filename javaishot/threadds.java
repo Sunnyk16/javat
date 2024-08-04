@@ -31,7 +31,7 @@ public class threadds {
         A obj =new A();
         B obj1 =new B();
 
-        System.out.println(obj1.show());
+        // Remove the line that prints the result of obj1.show()
 
         obj1.setPriority(Thread.MAX_PRIORITY);
         obj.start();
